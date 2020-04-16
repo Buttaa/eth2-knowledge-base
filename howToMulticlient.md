@@ -25,9 +25,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 4. Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-windows-amd64.exe - a **red** warnining should appear:
 
-![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451410-d02c6f00-7fe6-11ea-901a-298fd501533f.png)
-
-
+![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png)
 
  
 
