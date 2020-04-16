@@ -19,7 +19,14 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 2. **Download** the newest versions of the Beaconchain and Validator. The version name might have changed due to an update, but the file name should similar (green mark on the picture below).
 
-![Prysmatic_DownloadPage](https://user-images.githubusercontent.com/26490734/79448695-2cd95b00-7fe2-11ea-8daa-1bff18dc9343.png)
+![Prysmatic_DownloadPage](https://user-images.githubusercontent.com/26490734/79451678-33b69c80-7fe7-11ea-80c8-b92c75fbb937.png)
+
+3. Find the files that have been downloaded. Usually located in the "Downloads" folder
+
+4. Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-windows-amd64.exe - a **red** warnining should appear:
+
+![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451410-d02c6f00-7fe6-11ea-901a-298fd501533f.png)
+
 
 
  
