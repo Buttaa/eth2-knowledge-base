@@ -15,7 +15,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 1. Open the [Prysmatic Participation Page](https://prylabs.net/participate) and the [client release page](https://github.com/prysmaticlabs/prysm/releases)
 
-<sub> **NOTE:** The description displayed on the **Participation Page** does not work for Windows. </sub>
+&nbsp;&nbsp;&nbsp; <sub> **NOTE:** The description displayed on the **Participation Page** does not work for Windows. </sub>
 
 2. **Download** the newest versions of the Beaconchain and Validator. The version name might have changed due to an update, but the file name should similar.
 
