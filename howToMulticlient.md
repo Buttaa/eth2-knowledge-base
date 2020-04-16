@@ -23,7 +23,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 3. Find the files that have been downloaded. Usually located in the "Downloads" folder
 
-4. Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-windows-amd64.exe - a **red** warnining should appear:
+4. Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-windows-amd64.exe - a **red** warnining should appear. **Click** on "More Info" and then "Run anyway".
 
 ![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png)
 
