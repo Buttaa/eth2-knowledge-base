@@ -33,7 +33,7 @@ Find the files that have been downloaded. Usually located in the "Downloads" fol
 
 <ins>Step 4.</ins> 
 
-Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-windows-amd64.exe - a **red** warnining should appear. **Click** on "More Info" and then "Run anyway".
+Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</ins>.exe - a **red** warnining should appear. **Click** on "More Info" and then "Run anyway".
 
 ![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png)
 
@@ -44,5 +44,9 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-windows-amd64.exe - 
 <ins>Step 1.</ins> 
 
 Make sure to have the Validator File as desribed [here, <ins>Step 1 and 2.</ins>](https://github.com/Buttaa/eth2-knowledge-base/blob/howToMultiClient/howToMulticlient.md#windows10)
+
+<ins>Step 2.</ins> 
+
+Open the validator file - **validator**-v1.0.0-alpha.2-<ins>windows</ins>-amd64
 
 
