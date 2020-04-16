@@ -1,7 +1,6 @@
 ## Step by Step: How to use the Ethereum 2.0 Multiclient
 
-This guide will be designed for **non technical** people. It will focus on **Windows10 and MacOs**.
-It will be an ongoing process and will be updated as we collect feedback and adapt to the most recent changes! 
+This guide will be designed for **non technical** people. It will focus on **Windows10 and MacOs**. This guide will be an ongoing process and will be updated as we collect feedback and adapt to the most recent changes! 
 
 There will be **multiple ways** to join the ETH2.0 Testnet (different clients).
 
