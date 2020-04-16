@@ -27,6 +27,8 @@ Press **Windows button + R** , type **cmd**, press enter. A **black** window cal
 
 `reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1`
 
+<sub> This will change the looks of the command prompt output later </sub>
+
 <ins>Step 2.</ins> 
 
 **Download** the newest versions of the Beaconchain **and** Validator. The version name might have changed because of an update, but the file name should similar (green mark on the picture below).
