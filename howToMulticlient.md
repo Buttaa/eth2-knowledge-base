@@ -15,23 +15,23 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 ##### Windows10 Beaconchain
 
-Step 1. 
+<ins>Step 1.</ins> 
 
 Open the [Prysmatic Participation Page](https://prylabs.net/participate) and the [client release page](https://github.com/prysmaticlabs/prysm/releases)
 
-<sub> **NOTE:** The description displayed on the **Participation Page** does not work for Windows. </sub>
+<sub> **NOTE:** The description displayed on the **[Participation Page](https://prylabs.net/participate)** does not work for Windows. </sub>
 
-Step 2. 
+<ins>Step 2.</ins> 
 
 **Download** the newest versions of the Beaconchain **and** Validator. The version name might have changed because of an update, but the file name should similar (green mark on the picture below).
 
 ![Prysmatic_DownloadPage](https://user-images.githubusercontent.com/26490734/79451678-33b69c80-7fe7-11ea-80c8-b92c75fbb937.png)
 
-Step 3. 
+<ins>Step 3.</ins> 
 
 Find the files that have been downloaded. Usually located in the "Downloads" folder
 
-Step 4. 
+<ins>Step 4.</ins> 
 
 Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-windows-amd64.exe - a **red** warnining should appear. **Click** on "More Info" and then "Run anyway".
 
@@ -41,7 +41,7 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-windows-amd64.exe - 
 
 ##### Windows10 Validator
 
-Step 1. 
+<ins>Step 1.</ins> 
 
 Make sure to have the Validator File as desribed [here, Step 2.](https://github.com/Buttaa/eth2-knowledge-base/blob/howToMultiClient/howToMulticlient.md#windows10)
 
