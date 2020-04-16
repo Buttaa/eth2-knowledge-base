@@ -15,11 +15,17 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 ##### Windows10 Beaconchain
 
-<ins>Step 1.</ins> 
+<ins>Step 0.</ins> 
 
 Open the [Prysmatic Participation Page](https://prylabs.net/participate) and the [client release page](https://github.com/prysmaticlabs/prysm/releases)
 
 <sub> **NOTE:** The description displayed on the **[Participation Page](https://prylabs.net/participate)** does not work for Windows. </sub>
+
+<ins>Step 1.</ins> 
+
+Press **Windows button + R** , type **cmd**, press enter. A **black** window called **command prompt** should appear. Copy and paste the following code:
+
+`reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1`
 
 <ins>Step 2.</ins> 
 
