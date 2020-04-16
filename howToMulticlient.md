@@ -43,6 +43,6 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-windows-amd64.exe - 
 
 <ins>Step 1.</ins> 
 
-Make sure to have the Validator File as desribed [here, Step 2.](https://github.com/Buttaa/eth2-knowledge-base/blob/howToMultiClient/howToMulticlient.md#windows10)
+Make sure to have the Validator File as desribed [here, <ins>Step 2.</ins>](https://github.com/Buttaa/eth2-knowledge-base/blob/howToMultiClient/howToMulticlient.md#windows10)
 
 
