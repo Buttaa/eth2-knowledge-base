@@ -13,6 +13,8 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 #### Windows10
 
+##### Windows10 Beaconchain
+
 1. Open the [Prysmatic Participation Page](https://prylabs.net/participate) and the [client release page](https://github.com/prysmaticlabs/prysm/releases)
 
 &nbsp;&nbsp;&nbsp; <sub> **NOTE:** The description displayed on the **Participation Page** does not work for Windows. </sub>
@@ -27,7 +29,10 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 ![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png)
 
- 
+ TO BE CONTINUED ONCE GENESIS IS MINED.
 
+##### Windows10 Validator
+
+1. Make sure to have the Validator File as desribed [here, Step 2.](https://github.com/Buttaa/eth2-knowledge-base/blob/howToMultiClient/howToMulticlient.md#windows10)
 
 
