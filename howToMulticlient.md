@@ -19,7 +19,7 @@ Step 1.
 
 Open the [Prysmatic Participation Page](https://prylabs.net/participate) and the [client release page](https://github.com/prysmaticlabs/prysm/releases)
 
-&nbsp;&nbsp;&nbsp; <sub> **NOTE:** The description displayed on the **Participation Page** does not work for Windows. </sub>
+<sub> **NOTE:** The description displayed on the **Participation Page** does not work for Windows. </sub>
 
 Step 2. 
 
