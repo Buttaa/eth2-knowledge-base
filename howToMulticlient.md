@@ -17,7 +17,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 &nbsp;&nbsp;&nbsp; <sub> **NOTE:** The description displayed on the **Participation Page** does not work for Windows. </sub>
 
-2. **Download** the newest versions of the Beaconchain and Validator. The version name might have changed due to an update, but the file name should similar.
+2. **Download** the newest versions of the Beaconchain and Validator. The version name might have changed due to an update, but the file name should similar (green mark on the picture below).
 
 ![Prysmatic_DownloadPage](https://user-images.githubusercontent.com/26490734/79448695-2cd95b00-7fe2-11ea-8daa-1bff18dc9343.png)
 
