@@ -44,7 +44,7 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 
 ![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png)
 
- TO BE CONTINUED ONCE GENESIS IS MINED.
+If this does not work, you can also open a "Command Prompt" window and drag&drop the beaconchain file into it and press enter.
 
 ##### Windows10 Validator
 
