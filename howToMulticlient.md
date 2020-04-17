@@ -49,7 +49,7 @@ Open the [Prysmatic Participation Page](https://prylabs.net/participate) and the
 
 <ins>Step 1.</ins> 
 
-Open a "[Command Prompt]"(https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window:
+Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window:
 
 `reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1`
 
@@ -99,7 +99,7 @@ Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/1344
 
 <ins>Step 3.</ins>
 
-Open a "[Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows)" window and type `docker -v`. If installed correctly it should give you the Docker Version.
+Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and type `docker -v`. If installed correctly it should give you the Docker Version.
 
 To get the latest testnet client version follow up with this:
 
