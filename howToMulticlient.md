@@ -119,7 +119,7 @@ Change Docker File sharing settings, Manually create a folder in that specific d
 
 Running the beaconchain:
 
-Open a "Command Prompt" window and enter the following:
+Open a "Command Prompt" window and enter the following and press enter:
 
 `docker run -it -v c:/prysm/:/data -p 4000:4000 -p 13000:13000 gcr.io/prysmaticlabs/prysm/beacon-chain:latest --datadir=/data`
 
