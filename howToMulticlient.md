@@ -145,7 +145,10 @@ Once you press enter the output should look the image below. If you didn't chang
 
 <ins>Step 7.</ins>
 
-Getting 32 Goerli ETH (=Testnet ETH). 
+Getting 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the participation page join the [Prysm Discord](https://discord.gg/wJW7Rjk)
+
+![participationPage](https://user-images.githubusercontent.com/26490734/79565555-40072c00-80b1-11ea-86bf-78b3bd474dd0.png)
+
 
 
 
