@@ -147,7 +147,7 @@ Once you press enter the output should look the image below. If you didn't chang
 
 Getting 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the participation page join the [Prysm Discord](https://discord.gg/wJW7Rjk)
 
-![participationPage](https://user-images.githubusercontent.com/26490734/79565555-40072c00-80b1-11ea-86bf-78b3bd474dd0.png)
+![Participation](https://user-images.githubusercontent.com/26490734/79573699-53b98f00-80bf-11ea-8c7c-4092778bab7d.png)
 
 <ins>Step 7.</ins>
 
@@ -167,5 +167,7 @@ Open **two** "Command Prompt" windows and and the following code **into the firs
 <ins>Step 8.</ins>
 
 Track your validator perfomance on [beaconcha.in](https://beaconcha.in/)
+
+---
 
 
