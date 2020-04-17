@@ -153,7 +153,7 @@ Getting 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through t
 
 Starting beaconchain & validator. 
 
-Open **two** "Command Prompt" windows and and the following code **into the first one**
+Open **two** "Command Prompt" windows.
 
 1. **First Command prompt window: Start the beaconchain**
 
