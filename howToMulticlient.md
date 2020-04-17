@@ -27,6 +27,12 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
     - Prysm.sh script 
     
 #### [Lighthouse](https://lighthouse.sigmaprime.io/)
+
+- Windows 10
+
+    - Windows 10 w/Binary files (.exe)
+    - Windows **10 Pro** w/Docker
+    - script
   
 ---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
