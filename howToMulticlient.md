@@ -44,7 +44,8 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 
 ![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png)
 
-If this does not work, you can also open a "Command Prompt" window and drag&drop the beaconchain file into it and press enter.
+1. **If this does not work**, you can also open a "Command Prompt" window and drag&drop the beaconchain file into it and press enter.
+2. **If you get the error `The process cannot access the file because it is being used by another process`, you will need **manually** delete the "beaconchain.db" file.
 
 ##### Windows10 Validator
 
@@ -55,5 +56,7 @@ Make sure to have the Validator File as desribed [here, <ins>Step 1 and 2.</ins>
 <ins>Step 2.</ins> 
 
 Open the validator file - **validator**-v1.0.0-alpha.2-<ins>windows</ins>-amd64
+
+#### VALIDATOR REQUIRES [A FIX BY PRYSM TEAM](https://github.com/prysmaticlabs/prysm/issues/5456#issue-601128068)
 
 
