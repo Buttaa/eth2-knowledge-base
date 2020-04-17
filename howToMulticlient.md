@@ -4,14 +4,15 @@ This guide will be designed for **non technical** people. It will focus on **Win
 
 There will be **multiple ways** to join the ETH2.0 Testnet (different clients).
 
-**System requirements: Recommended: 8GB RAM, 100GB SSD , Minimum: 4GB RAM, 20GB SSD**
+**System requirements: Recommended: 8GB RAM, 100GB SSD , Minimum: 4GB RAM, 20GB SSD.**
+
 Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is recommended but not required.
 
 ---
 
 ### Overview
 
-#### Prysmatic Labs
+#### [Prysmatic Labs](https://prysmaticlabs.com/)
 
 - Windows 10
 
@@ -24,6 +25,8 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
     - something
     - Docker
     - Prysm.sh script 
+    
+### [Lighthouse](https://lighthouse.sigmaprime.io/)
   
 ---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
