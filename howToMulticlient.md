@@ -49,7 +49,7 @@ Open the [Prysmatic Participation Page](https://prylabs.net/participate) and the
 
 <ins>Step 1.</ins> 
 
-Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window:
+Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and enter the following:
 
 `reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1`
 
