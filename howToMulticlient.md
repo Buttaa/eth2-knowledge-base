@@ -26,7 +26,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
     - Docker
     - Prysm.sh script 
     
-### [Lighthouse](https://lighthouse.sigmaprime.io/)
+#### [Lighthouse](https://lighthouse.sigmaprime.io/)
   
 ---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
