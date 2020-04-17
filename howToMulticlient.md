@@ -109,4 +109,20 @@ Change Docker File sharing settings, Manually create a folder in that specific d
 
 ![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png)
 
+<ins>Step 5.</ins>
+
+Running the beaconchain:
+
+Open a "Command Prompt" window and enter the following:
+
+`docker run -it -v c:/prysm/:/data -p 4000:4000 -p 13000:13000 gcr.io/prysmaticlabs/prysm/beacon-chain:latest --datadir=/data`
+
+The manually created folder should now have files including the beaconchain data.
+
+![installingBeacon](https://user-images.githubusercontent.com/26490734/79552684-a1240500-809b-11ea-9e84-8841cc4caba2.png)
+
+<ins>Step 6.</ins>
+
+Creating your ETH2 Keys 
+
 
