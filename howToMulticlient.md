@@ -31,9 +31,9 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 ---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
 
-#### Windows10
+#### Windows 10 w/Binary files (.exe)
 
-##### Windows10 Beaconchain
+##### Beaconchain
 
 <ins>Step 0.</ins> 
 
@@ -68,7 +68,7 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 1. **If this does not work**, you can also open a "Command Prompt" window and drag&drop the beaconchain file into it and press enter.
 2. **If you get the error `The process cannot access the file because it is being used by another process`, you will need **manually** delete the "beaconchain.db" file.
 
-##### Windows10 Validator
+##### Validator
 
 <ins>Step 1.</ins> 
 
@@ -79,5 +79,18 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 <!-- Open the validator file - **validator**-v1.0.0-alpha.2-<ins>windows</ins>-amd64 -->
 
 #### VALIDATOR REQUIRES [A FIX BY PRYSM TEAM](https://github.com/prysmaticlabs/prysm/issues/5456#issue-601128068)
+---
+
+#### Windows **10 Pro** w/Docker
+
+<ins>Step 1.</ins>
+
+Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running), otherwise you won't be able to get Docker working. 
+
+<ins>Step 2.</ins>
+
+[Installing Docker](https://docs.docker.com/docker-for-windows/install/), which is the "hardest" part and is different for everyone depending on the motherboard manufacturer. You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled. 
+
+
 
 
