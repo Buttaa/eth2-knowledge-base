@@ -149,6 +149,12 @@ Getting 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through t
 
 ![participationPage](https://user-images.githubusercontent.com/26490734/79565555-40072c00-80b1-11ea-86bf-78b3bd474dd0.png)
 
+<ins>Step 7.</ins>
+
+Starting beaconchain & validator. 
+
+Open **two** "Command Prompt" windows and and the following code **into the first one**
+
 
 
 
