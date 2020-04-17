@@ -105,4 +105,8 @@ To get the latest testnet client version follow up with this:
 
 <ins>Step 4.</ins>
 
+Change Docker File sharing settings, Manually create a folder in that specific directory.
+
+![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png)
+
 
