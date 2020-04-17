@@ -7,7 +7,27 @@ There will be **multiple ways** to join the ETH2.0 Testnet (different clients).
 **System requirements: Recommended: 8GB RAM, 100GB SSD , Minimum: 4GB RAM, 20GB SSD**
 Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is recommended but not required.
 
+---
 
+### Overview
+
+#### Prysmatic Labs
+<ul>
+<li>Windows 10</li>
+<ul>
+<li>Windows 10 w/Binary files (.exe)</li>
+<li>Windows 10 **Pro** w/Docker </li>
+<li>Prysm.sh script</li>
+</ul>
+</li>
+<li>macOS</li>
+<ul>
+<li> something </li>
+<li>Docker </li>
+<li>Prysm.sh script</li>
+</ul> 
+
+---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
 
 #### Windows10
@@ -51,11 +71,11 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 
 <ins>Step 1.</ins> 
 
-Make sure to have the Validator File as desribed [here, <ins>Step 1 and 2.</ins>](https://github.com/Buttaa/eth2-knowledge-base/blob/howToMultiClient/howToMulticlient.md#windows10)
+<!-- Make sure to have the Validator File as desribed [here, <ins>Step 1 and 2.</ins>](https://github.com/Buttaa/eth2-knowledge-base/blob/howToMultiClient/howToMulticlient.md#windows10) -->
 
 <ins>Step 2.</ins> 
 
-Open the validator file - **validator**-v1.0.0-alpha.2-<ins>windows</ins>-amd64
+<!-- Open the validator file - **validator**-v1.0.0-alpha.2-<ins>windows</ins>-amd64 -->
 
 #### VALIDATOR REQUIRES [A FIX BY PRYSM TEAM](https://github.com/prysmaticlabs/prysm/issues/5456#issue-601128068)
 
