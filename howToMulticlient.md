@@ -133,7 +133,7 @@ Creating your ETH2 Keys:
 
 Copy the following code, **replace** "YOUR-PC-USERNAME" with your PC user name: 
 
-`docker run -it -v C:\Users\YOUR-PC-USERNAME\prysm\validator/prysm:/data gcr.io/prysmaticlabs/prysm/validator:latest --keystore-path=/data --password=changeme`
+`docker run -it -v C:\Users\YOUR-PC-USERNAME\prysm\validator/prysm:/data gcr.io/prysmaticlabs/prysm/validator:latest --keystore-path=/data accounts create --password=changeme`
 
 Once you press enter the output should look the image below. If you didn't change `--password=changeme` your validator keys will have this password by default. For simplicity, let's keep it this way for the testnet.
 
@@ -141,7 +141,7 @@ Once you press enter the output should look the image below. If you didn't chang
 
 **Copy the Raw Transaction Data** (Yellow mark) and go to the [participation page](https://prylabs.net/participate).
 
-![validatorKeyGen](https://user-images.githubusercontent.com/26490734/79570553-ed7e3d80-80b9-11ea-8533-ee01654ec87a.png)
+![validatorKeyGen](https://user-images.githubusercontent.com/26490734/79572401-2e2b8600-80bd-11ea-80b7-cedc798541be.png)
 
 <ins>Step 7.</ins>
 
@@ -155,6 +155,17 @@ Starting beaconchain & validator.
 
 Open **two** "Command Prompt" windows and and the following code **into the first one**
 
+1. **First Command prompt window: Start the beaconchain**
 
+`docker run -it -v c:/prysm/:/data -p 4000:4000 -p 13000:13000 gcr.io/prysmaticlabs/prysm/beacon-chain:latest --datadir=/data`
+<sub> The blockchain data will be stored in the folder we manually created in Step 4 </sub>
+
+2. **Second Command prompt window: Start your validator**
+
+`docker run -it -v c:/prysm:/data --network="host" gcr.io/prysmaticlabs/prysm/validator:latest --beacon-rpc-provider=127.0.0.1:4000 --keystore-path=/data --datadir=/data --password=changeme`
+
+<ins>Step 8.</ins>
+
+Track your validator perfomance on [beaconcha.in](https://beaconcha.in/)
 
 
