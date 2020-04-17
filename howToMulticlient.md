@@ -12,20 +12,18 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 ### Overview
 
 #### Prysmatic Labs
-<ul>
-<li>Windows 10</li>
-<ul>
-<li>Windows 10 w/Binary files (.exe)</li>
-<li>Windows 10 **Pro** w/Docker </li>
-<li>Prysm.sh script</li>
-</ul>
-</li>
-<li>macOS</li>
-<ul>
-<li> something </li>
-<li>Docker </li>
-<li>Prysm.sh script</li>
-</ul> 
+
+*   Windows 10
+
+*   Windows 10 w/Binary files (.exe)
+*   Windows 10 Pro w/Docker
+*   Prysm.sh script
+
+*   macOS
+
+*   something
+*   Docker
+*   Prysm.sh script
 
 ---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
