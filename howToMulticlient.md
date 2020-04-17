@@ -91,6 +91,18 @@ Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/1344
 
 [Installing Docker](https://docs.docker.com/docker-for-windows/install/), which is the "hardest" part and is different for everyone depending on the motherboard manufacturer. You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled. 
 
+<ins>Step 3.</ins>
 
+Open a "Command Prompt" window and type `docker -v`. If installed correctly it should give you the Docker Version.
+
+To get the latest testnet client version follow up with this:
+
+1. `docker pull gcr.io/prysmaticlabs/prysm/beacon-chain:latest`
+
+2. `docker pull gcr.io/prysmaticlabs/prysm/validator:latest`
+
+![pullValidator](https://user-images.githubusercontent.com/26490734/79550092-2efdf100-8098-11ea-948f-84cc150a2251.png)
+
+<ins>Step 4.</ins>
 
 
