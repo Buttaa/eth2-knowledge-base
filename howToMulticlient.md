@@ -17,7 +17,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 - Windows 10
 
     - Windows 10 w/Binary files (.exe)
-    - Windows 10 Pro w/Docker
+    - Windows **10 Pro** w/Docker
     - Prysm.sh script
     
 - macOS
