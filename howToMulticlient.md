@@ -139,6 +139,12 @@ To get the latest testnet client version & starting the beaconchain follow up wi
 
 `docker pull gcr.io/prysmaticlabs/prysm/beacon-chain:latest`
 
+<details>
+  <summary>Picture to clarify</summary>
+  
+ ![pullValidator](https://user-images.githubusercontent.com/26490734/79550092-2efdf100-8098-11ea-948f-84cc150a2251.png)
+</details>
+
 2. Pull latest Validator updates: 
 
 `docker pull gcr.io/prysmaticlabs/prysm/validator:latest`
@@ -149,10 +155,13 @@ To get the latest testnet client version & starting the beaconchain follow up wi
 
 <sub> The blockchain data will be stored in the folder we manually created in the **Docker installation** (C:\prysm). </sub>
 
+**Wait** for your beacon-node to be in sync with the Blockchain. This may take a few hours. You will see the following message:
+
+`INFO initial-sync: Synced up to slot 24840`
+
 <details>
-  <summary>Picture to clarify</summary>
-  
- ![pullValidator](https://user-images.githubusercontent.com/26490734/79550092-2efdf100-8098-11ea-948f-84cc150a2251.png)
+    <summary> Synced image </summary>  
+![synced](https://user-images.githubusercontent.com/26490734/79868679-8a094e00-83e0-11ea-81a0-d22ce4a741e9.png)
 </details>
 
 <ins>**Step 1.**</ins>
