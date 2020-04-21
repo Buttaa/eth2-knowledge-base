@@ -17,8 +17,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 - Windows 10
 
     - Windows 10 w/Binary files (.exe)
-    - - Installing Docker on Windows **Pro**
-    - Windows **10 Pro** w/Docker 
+    - - Installing Docker on Windows **Pro** 
     - - Installing Docker on Windows **Home**
     - Windows **Home** w/Docker
     - Prysm.sh script
@@ -90,6 +89,30 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 <ins>**Step 1.**</ins> 
 
 <!-- Open the validator file - **validator**-v1.0.0-alpha.2-<ins>windows</ins>-amd64 -->
+
+---
+
+#### Installing Docker on Windows **Home**
+
+<ins>**Step 0.**</ins>
+
+Make sure you have [Windows10 Home](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running).
+
+Since Docker is usually not available for Windows 10 Home some workaround are required as mentioned below.
+
+<ins>**Step 1.**</ins>
+
+[Downloading and installing Docker](https://download.docker.com/win/stable/40693/Docker%20Desktop%20Installer.exe). <sup> [(Docker Info)](https://docs.docker.com/docker-for-windows/install/) </sup>
+
+Install [Hyper-V](https://www.deskmodder.de/blog/wp-content/uploads/2018/08/hyper-v-installer-1.zip) by running the .bat file. <sup> [Download source](https://www.deskmodder.de/blog/2018/08/23/windows-10-home-hyper-v-aktivieren/) </sup>
+
+You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled, which you can check in your Taskmanager. 
+
+<details>
+  <summary>Virtualization enabled</summary>
+  
+![virtualization](https://user-images.githubusercontent.com/26490734/79853838-dba5de80-83c8-11ea-9fbf-d640c4bb1980.png)
+</details>
 
 ---
 
