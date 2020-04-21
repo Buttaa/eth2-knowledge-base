@@ -87,11 +87,11 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 
 ##### Validator
 
-<ins>**Step 1.**</ins> 
+<ins>**Step 0.**</ins> 
 
 <!-- Make sure to have the Validator File as desribed [here, <ins>Step 1 and 2.</ins>](https://github.com/Buttaa/eth2-knowledge-base/blob/howToMultiClient/howToMulticlient.md#windows10) -->
 
-<ins>**Step 2.**</ins> 
+<ins>**Step 1.**</ins> 
 
 <!-- Open the validator file - **validator**-v1.0.0-alpha.2-<ins>windows</ins>-amd64 -->
 
@@ -100,15 +100,15 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 
 #### Windows **10 Pro** w/Docker
 
-<ins>**Step 1.**</ins>
+<ins>**Step 0.**</ins>
 
 Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running)
 
-<ins>**Step 2.**</ins>
+<ins>**Step 1.**</ins>
 
 [Installing Docker](https://docs.docker.com/docker-for-windows/install/), which is the "hardest" part and is different for everyone depending on the motherboard manufacturer. You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled. 
 
-<ins>**Step 3.**</ins>
+<ins>**Step 2.**</ins>
 
 Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and type `docker -v`. If installed correctly it should give you the Docker Version.
 
@@ -125,7 +125,7 @@ To get the latest testnet client version follow up with this:
 </details>
 
 
-<ins>**Step 4.**</ins>
+<ins>**Step 3.**</ins>
 
 Change Docker File sharing settings, Manually create a folder in that specific directory.
 
@@ -135,7 +135,7 @@ Change Docker File sharing settings, Manually create a folder in that specific d
   Spoiler text. ![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png) 
 </details>
 
-<ins>**Step 5.**</ins>
+<ins>**Step 4.**</ins>
 
 Running the beaconchain:
 
@@ -147,7 +147,7 @@ The manually created folder should now have files including the beaconchain data
 
 ![installingBeacon](https://user-images.githubusercontent.com/26490734/79552684-a1240500-809b-11ea-9e84-8841cc4caba2.png)
 
-<ins>**Step 6.**</ins>
+<ins>**Step 5.**</ins>
 
 Creating your ETH2 Keys:
 
@@ -167,7 +167,7 @@ Once you press enter the output should look the image below. If you didn't chang
   Spoiler text. ![validatorKeyGen](https://user-images.githubusercontent.com/26490734/79572401-2e2b8600-80bd-11ea-80b7-cedc798541be.png)
 </details>
 
-<ins>**Step 7.**</ins>
+<ins>**Step 6.**</ins>
 
 Getting 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the participation page join the [Prysm Discord](https://discord.gg/wJW7Rjk)
 
@@ -177,7 +177,7 @@ Getting 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through t
   Spoiler text. ![Participation](https://user-images.githubusercontent.com/26490734/79573699-53b98f00-80bf-11ea-8c7c-4092778bab7d.png)
 </details>
 
-<ins>**Step 8.**</ins>
+<ins>**Step 7.**</ins>
 
 Starting beaconchain & validator. 
 
@@ -193,7 +193,7 @@ Open **two** "Command Prompt" windows.
 
 `docker run -it -v c:/prysm:/data --network="host" gcr.io/prysmaticlabs/prysm/validator:latest --beacon-rpc-provider=127.0.0.1:4000 --keystore-path=/data --datadir=/data --password=changeme`
 
-<ins>**Step 9.**</ins>
+<ins>**Step 8.**</ins>
 
 Track your validator perfomance on [beaconcha.in](https://beaconcha.in/dashboard?validators=)
 
