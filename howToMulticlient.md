@@ -173,7 +173,7 @@ Copy the following code:
 
 Once you press enter the output should look the image below. If you didn't change `--password=yourPassword` your validator keys will have this password by default. For simplicity, let's keep it this way for the testnet.
 
-`C:\prysm` this is the location of your keys.
+`C:\prysm` is the location of your keys - make sure they are available.
 
 **Copy the Raw Transaction Data** (Yellow mark) and go to the [participation page](https://prylabs.net/participate).
 
