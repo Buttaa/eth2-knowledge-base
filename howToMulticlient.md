@@ -138,7 +138,7 @@ Change Docker File sharing settings, Manually create a folder in that specific d
  ![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png) 
 </details>
 
-<ins>**Step 4.**</ins>
+<ins>**Step 2.**</ins>
 
 Running the beaconchain:
 
@@ -154,7 +154,7 @@ The manually created folder should now have files including the **beaconchain da
  ![installingBeacon](https://user-images.githubusercontent.com/26490734/79552684-a1240500-809b-11ea-9e84-8841cc4caba2.png)
 </details>
 
-<ins>**Step 5.**</ins>
+<ins>**Step 3.**</ins>
 
 Creating your ETH2 Keys:
 
@@ -174,7 +174,7 @@ Once you press enter the output should look the image below. If you didn't chang
 ![keyCreation](https://user-images.githubusercontent.com/26490734/79857621-59b8b400-83ce-11ea-9bb5-6b5f0ba9ac7e.png)
 </details>
 
-<ins>**Step 6.**</ins>
+<ins>**Step 4.**</ins>
 
 Get 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the participation page join the [Prysm Discord](https://discord.gg/wJW7Rjk) Follow the steps below to deposit your Goerli ETH.
 
@@ -184,7 +184,7 @@ Get 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the p
 ![Participation](https://user-images.githubusercontent.com/26490734/79573699-53b98f00-80bf-11ea-8c7c-4092778bab7d.png)
 </details>
 
-<ins>**Step 7.**</ins>
+<ins>**Step 5.**</ins>
 
 Starting beaconchain & validator. 
 
@@ -198,9 +198,9 @@ Open **two** "Command Prompt" windows.
 
 2. **Second Command prompt window: Start your validator**
 
-`docker run -it -v c:/prysm:/data --network="host" gcr.io/prysmaticlabs/prysm/validator:latest --beacon-rpc-provider=127.0.0.1:4000 --keystore-path=/data --datadir=/data --password=changeme`
+`docker run -it -v c:/prysm:/data --network="host" gcr.io/prysmaticlabs/prysm/validator:latest --beacon-rpc-provider=127.0.0.1:4000 --keystore-path=/data --datadir=/data --password=yourPassword`
 
-<ins>**Step 8.**</ins>
+<ins>**Step 6.**</ins>
 
 Track your validator perfomance on [beaconcha.in](https://beaconcha.in/dashboard?validators=)
 
