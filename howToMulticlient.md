@@ -153,6 +153,7 @@ The manually created folder should now have files including the beaconchain data
   
  ![installingBeacon](https://user-images.githubusercontent.com/26490734/79552684-a1240500-809b-11ea-9e84-8841cc4caba2.png)
 </details>
+
 <ins>**Step 5.**</ins>
 
 Creating your ETH2 Keys:
