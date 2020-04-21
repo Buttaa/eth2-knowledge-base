@@ -133,7 +133,7 @@ Change Docker File sharing settings - Manually create a folder called **"prysm"*
 
 Start Docker and open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and type `docker -v`. If installed correctly it should give you the Docker Version. If not, please make sure to follow the steps in **Installing Docker on Windows Pro/Home**.
 
-If successful you can run the following code **(this is not required but changes the look of your command prompt output)**: 
+If successful, you can run the following code **(this is not required but changes the look of your command prompt output)**: 
 
 `reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1` 
 
