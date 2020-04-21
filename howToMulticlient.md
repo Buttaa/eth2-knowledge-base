@@ -135,11 +135,17 @@ Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windo
 
 To get the latest testnet client version & starting the beaconchain follow up with this:
 
-1. `docker pull gcr.io/prysmaticlabs/prysm/beacon-chain:latest`
+1. Pull latest Beaconchain updates:
 
-2. `docker pull gcr.io/prysmaticlabs/prysm/validator:latest`
+`docker pull gcr.io/prysmaticlabs/prysm/beacon-chain:latest`
 
-3. Starting the beaconchain `docker run -it -v c:/prysm/:/data -p 4000:4000 -p 13000:13000 gcr.io/prysmaticlabs/prysm/beacon-chain:latest --datadir=/data`
+2. Pull latest Validator updates: 
+
+`docker pull gcr.io/prysmaticlabs/prysm/validator:latest`
+
+3. Starting the beaconchain 
+
+`docker run -it -v c:/prysm/:/data -p 4000:4000 -p 13000:13000 gcr.io/prysmaticlabs/prysm/beacon-chain:latest --datadir=/data`
 
 <sub> The blockchain data will be stored in the folder we manually created in Step 1. </sub>
 
