@@ -114,6 +114,16 @@ You will need to have "[Virtualization](https://docs.docker.com/docker-for-windo
 ![virtualization](https://user-images.githubusercontent.com/26490734/79853838-dba5de80-83c8-11ea-9fbf-d640c4bb1980.png)
 </details>
 
+<ins>**Step 2.**</ins>
+
+Change Docker File sharing settings, Manually create a folder in that specific directory.
+
+<details>
+  <summary>Picture to clarify</summary>
+  
+ ![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png) 
+</details>
+
 ---
 
 #### Installing Docker on Windows **Pro**
@@ -134,6 +144,16 @@ You will need to have "[Virtualization](https://docs.docker.com/docker-for-windo
 ![virtualization](https://user-images.githubusercontent.com/26490734/79853838-dba5de80-83c8-11ea-9fbf-d640c4bb1980.png)
 </details>
 
+<ins>**Step 2.**</ins>
+
+Change Docker File sharing settings, Manually create a folder in that specific directory.
+
+<details>
+  <summary>Picture to clarify</summary>
+  
+ ![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png) 
+</details>
+
 ---
 
 <ins>**Step 0.**</ins>
@@ -152,18 +172,7 @@ To get the latest testnet client version follow up with this:
  ![pullValidator](https://user-images.githubusercontent.com/26490734/79550092-2efdf100-8098-11ea-948f-84cc150a2251.png)
 </details>
 
-
 <ins>**Step 1.**</ins>
-
-Change Docker File sharing settings, Manually create a folder in that specific directory.
-
-<details>
-  <summary>Picture to clarify</summary>
-  
- ![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png) 
-</details>
-
-<ins>**Step 2.**</ins>
 
 **Creating your ETH2 Keys:**
 
@@ -183,7 +192,7 @@ Once you press enter the output should look the image below. If you didn't chang
 ![keyCreation](https://user-images.githubusercontent.com/26490734/79857621-59b8b400-83ce-11ea-9bb5-6b5f0ba9ac7e.png)
 </details>
 
-<ins>**Step 3.**</ins>
+<ins>**Step 2.**</ins>
 
 Get 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the participation page, join the [Prysm Discord](https://discord.gg/wJW7Rjk) Follow the steps below to deposit your Goerli ETH.
 
@@ -193,7 +202,7 @@ Get 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the p
 ![Participation](https://user-images.githubusercontent.com/26490734/79573699-53b98f00-80bf-11ea-8c7c-4092778bab7d.png)
 </details>
 
-<ins>**Step 4.**</ins>
+<ins>**Step 3.**</ins>
 
 Starting beaconchain & validator. 
 
@@ -209,7 +218,7 @@ Open **two** "Command Prompt" windows.
 
 `docker run -it -v c:/prysm:/data --network="host" gcr.io/prysmaticlabs/prysm/validator:latest --beacon-rpc-provider=127.0.0.1:4000 --keystore-path=/data --datadir=/data --password=yourPassword`
 
-<ins>**Step 5.**</ins>
+<ins>**Step 4.**</ins>
 
 Track your validator perfomance on [beaconcha.in](https://beaconcha.in/dashboard?validators=) with your public key (orange). You will need to wait for the inclusionSlot(red) to be reached until your deposit is recognized by the system and to start staking. The Slot number can be checked [here](https://beaconcha.in/blocks)
 
