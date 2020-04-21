@@ -195,7 +195,7 @@ Open **two** "Command Prompt" windows.
 
 <ins>Step 8.</ins>
 
-Track your validator perfomance on [beaconcha.in](https://beaconcha.in/)
+Track your validator perfomance on [beaconcha.in](https://beaconcha.in/dashboard?validators=)
 
 ---
 
