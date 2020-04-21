@@ -41,6 +41,8 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 #### Installing Docker on Windows **Home**
 
+<details>
+
 <ins>**Step 0.**</ins>
 
 Make sure you have [Windows10 Home](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running).
@@ -69,6 +71,8 @@ Change Docker File sharing settings, Manually create a folder called **"prysm"**
   <summary>Picture to clarify</summary>
   
  ![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png) 
+</details>
+
 </details>
 
 ---
