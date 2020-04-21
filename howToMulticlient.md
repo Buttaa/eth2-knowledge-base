@@ -158,20 +158,20 @@ The manually created folder should now have files including the **beaconchain da
 
 Creating your ETH2 Keys:
 
-Copy the following code, **replace** "YOUR-PC-USERNAME" with your PC user name: 
+Copy the following code: 
 
-`docker run -it -v C:\Users\YOUR-PC-USERNAME\prysm\validator/prysm:/data gcr.io/prysmaticlabs/prysm/validator:latest --keystore-path=/data accounts create --password=changeme`
+`docker run -it -v c:/prysm/:/data gcr.io/prysmaticlabs/prysm/validator:latest --keystore-path=/data accounts create --password=yourPassword`
 
-Once you press enter the output should look the image below. If you didn't change `--password=changeme` your validator keys will have this password by default. For simplicity, let's keep it this way for the testnet.
+Once you press enter the output should look the image below. If you didn't change `--password=yourPassword` your validator keys will have this password by default. For simplicity, let's keep it this way for the testnet.
 
-`C:\Users\YOUR-PC-USERNAME\prysm\validator/prysm` this is the location of your keys.
+`C:\prysm` this is the location of your keys.
 
 **Copy the Raw Transaction Data** (Yellow mark) and go to the [participation page](https://prylabs.net/participate).
 
 <details>
   <summary>Picture to clarify</summary>
   
-![validatorKeyGen](https://user-images.githubusercontent.com/26490734/79572401-2e2b8600-80bd-11ea-80b7-cedc798541be.png)
+![keyCreation](https://user-images.githubusercontent.com/26490734/79857621-59b8b400-83ce-11ea-9bb5-6b5f0ba9ac7e.png)
 </details>
 
 <ins>**Step 6.**</ins>
