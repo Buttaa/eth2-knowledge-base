@@ -40,7 +40,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 ---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
 
-#### Windows 10 w/Binary files (.exe) - Beaconchain
+#### Windows 10 w/Binary files (.exe) - <ins>Beaconchain</ins>
 
 <ins>**Step 0.**</ins> 
 
@@ -63,7 +63,7 @@ Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windo
 <details>
   <summary>Picture to clarify</summary>
   
-  Spoiler text. ![Prysmatic_DownloadPage](https://user-images.githubusercontent.com/26490734/79451678-33b69c80-7fe7-11ea-80c8-b92c75fbb937.png)
+![Prysmatic_DownloadPage](https://user-images.githubusercontent.com/26490734/79451678-33b69c80-7fe7-11ea-80c8-b92c75fbb937.png)
 </details>
 
 <ins>**Step 3.**</ins> 
@@ -77,13 +77,13 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 <details>
   <summary>Picture to clarify</summary>
   
-  Spoiler text. ![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png) 
+![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png) 
 </details>
 
 1. **If this does not work**, you can also open a "Command Prompt" window and drag&drop the beaconchain file into it and press enter.
 2. **If you get the error** `The process cannot access the file because it is being used by another process`, you will need **manually** delete the "beaconchain.db" file.
 
-#### Windows 10 w/Binary files (.exe) - Validator (REQUIRES [A FIX BY PRYSM TEAM](https://github.com/prysmaticlabs/prysm/issues/5456#issue-601128068))
+#### Windows 10 w/Binary files (.exe) - <ins>Validator</ins> (REQUIRES [A FIX BY PRYSM TEAM](https://github.com/prysmaticlabs/prysm/issues/5456#issue-601128068))
 
 <ins>**Step 0.**</ins> 
 
@@ -95,7 +95,7 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 
 ---
 
-#### Windows **10 Pro** w/Docker
+#### Installing Docker on Windows **Pro**
 
 <ins>**Step 0.**</ins>
 
@@ -103,7 +103,15 @@ Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/1344
 
 <ins>**Step 1.**</ins>
 
-[Installing Docker](https://docs.docker.com/docker-for-windows/install/), which is the "hardest" part and is different for everyone depending on the motherboard manufacturer. You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled. 
+[Downloading Docker](https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe), which is the "hardest" part and is different for everyone depending on the motherboard manufacturer. You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled, which you can on your Taskmanager. [Docker Info Page](https://docs.docker.com/docker-for-windows/install/)
+
+<details>
+  <summary>Picture to clarify</summary>
+  
+![virtualization](https://user-images.githubusercontent.com/26490734/79853838-dba5de80-83c8-11ea-9fbf-d640c4bb1980.png)
+</details>
+
+---
 
 <ins>**Step 2.**</ins>
 
@@ -118,7 +126,7 @@ To get the latest testnet client version follow up with this:
 <details>
   <summary>Picture to clarify</summary>
   
-  Spoiler text. ![pullValidator](https://user-images.githubusercontent.com/26490734/79550092-2efdf100-8098-11ea-948f-84cc150a2251.png)
+ ![pullValidator](https://user-images.githubusercontent.com/26490734/79550092-2efdf100-8098-11ea-948f-84cc150a2251.png)
 </details>
 
 
@@ -129,7 +137,7 @@ Change Docker File sharing settings, Manually create a folder in that specific d
 <details>
   <summary>Picture to clarify</summary>
   
-  Spoiler text. ![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png) 
+ ![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png) 
 </details>
 
 <ins>**Step 4.**</ins>
@@ -142,8 +150,11 @@ Open a "Command Prompt" window and enter the following and press enter:
 
 The manually created folder should now have files including the beaconchain data.
 
-![installingBeacon](https://user-images.githubusercontent.com/26490734/79552684-a1240500-809b-11ea-9e84-8841cc4caba2.png)
-
+<details>
+  <summary>Picture to clarify</summary>
+  
+ ![installingBeacon](https://user-images.githubusercontent.com/26490734/79552684-a1240500-809b-11ea-9e84-8841cc4caba2.png)
+</details>
 <ins>**Step 5.**</ins>
 
 Creating your ETH2 Keys:
@@ -161,7 +172,7 @@ Once you press enter the output should look the image below. If you didn't chang
 <details>
   <summary>Picture to clarify</summary>
   
-  Spoiler text. ![validatorKeyGen](https://user-images.githubusercontent.com/26490734/79572401-2e2b8600-80bd-11ea-80b7-cedc798541be.png)
+![validatorKeyGen](https://user-images.githubusercontent.com/26490734/79572401-2e2b8600-80bd-11ea-80b7-cedc798541be.png)
 </details>
 
 <ins>**Step 6.**</ins>
@@ -171,7 +182,7 @@ Getting 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through t
 <details>
   <summary>Picture to clarify</summary>
   
-  Spoiler text. ![Participation](https://user-images.githubusercontent.com/26490734/79573699-53b98f00-80bf-11ea-8c7c-4092778bab7d.png)
+![Participation](https://user-images.githubusercontent.com/26490734/79573699-53b98f00-80bf-11ea-8c7c-4092778bab7d.png)
 </details>
 
 <ins>**Step 7.**</ins>
