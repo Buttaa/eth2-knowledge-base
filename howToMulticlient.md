@@ -176,7 +176,7 @@ Once you press enter the output should look the image below. If you didn't chang
 
 `C:\prysm` is the location of your keys - make sure they are available.
 
-**Copy the Raw Transaction Data** (Yellow mark) and go to the [participation page](https://prylabs.net/participate).
+**Copy the Raw Transaction Data** and go to the [participation page](https://prylabs.net/participate).
 
 <details>
   <summary>Picture to clarify</summary>
