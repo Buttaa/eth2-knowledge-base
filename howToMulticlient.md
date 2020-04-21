@@ -51,7 +51,7 @@ Since Docker is usually not available for Windows 10 Home some workaround are re
 
 <ins>**Step 1.**</ins>
 
-[Download (do not install yet)](https://download.docker.com/win/stable/40693/Docker%20Desktop%20Installer.exe). <sup> [(Docker Info)](https://docs.docker.com/docker-for-windows/install/) </sup>
+[Download Docker (do not install yet)](https://download.docker.com/win/stable/40693/Docker%20Desktop%20Installer.exe). <sup> [(Docker Info)](https://docs.docker.com/docker-for-windows/install/) </sup>
 
 Install [Hyper-V](https://www.deskmodder.de/blog/wp-content/uploads/2018/08/hyper-v-installer-1.zip) by running the .bat file. <sup> [Download source](https://www.deskmodder.de/blog/2018/08/23/windows-10-home-hyper-v-aktivieren/) </sup>
 
