@@ -79,6 +79,8 @@ Change Docker File sharing settings, Manually create a folder called **"prysm"**
 
 #### Installing Docker on Windows **Pro**
 
+<details>
+
 <ins>**Step 0.**</ins>
 
 Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running)
@@ -105,9 +107,13 @@ Change Docker File sharing settings, Manually create a folder called **"prysm"**
  ![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png) 
 </details>
 
+</details>
+
 ---
 
 #### Run with Windows **Pro/Home** w/Docker
+
+<details>
 
 <ins>**Step 0.**</ins>
 
@@ -193,9 +199,13 @@ Copy the **Raw Transaction Data** for each validator and re-do the process on th
 After all deposits have been received by the system, you can just start a single validator window and it will use all the created keys (=multiple validators)
 </details>
 
+</details>
+
 ---
 
 #### Windows 10 w/Binary files (.exe) - <ins>Beaconchain</ins>
+
+<details>
 
 <ins>**Step 0.**</ins> 
 
@@ -245,5 +255,7 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 <ins>**Step 1.**</ins> 
 
 <!-- Open the validator file - **validator**-v1.0.0-alpha.2-<ins>windows</ins>-amd64 -->
+
+</details>
 
 ---
