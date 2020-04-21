@@ -157,7 +157,7 @@ To get the latest testnet client version & starting the beaconchain follow up wi
 
 **Wait** for your beacon-node to be in sync with the Blockchain. This may take a few hours. You will see the following message:
 
-`INFO initial-sync: Synced up to slot 24840`
+`INFO initial-sync: Synced up to slot XXXXX`
 
 <details>
     <summary> Synced image </summary>  
