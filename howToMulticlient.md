@@ -77,7 +77,7 @@ Run the following code in a command prompt window
 
 (In case of a **PC restart, shutdown or Docker shutdown**, the code above needs to be re-entered otherwise Docker will not start)
 
-<ins>**Step 2.**</ins>
+<ins>**Step 3.**</ins>
 
 Change Docker File sharing settings - Manually create a folder called **"prysm"** in that specific directory. Picture below for clarification.
 
