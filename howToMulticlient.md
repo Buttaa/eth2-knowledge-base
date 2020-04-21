@@ -198,7 +198,8 @@ Track your validator perfomance on [beaconcha.in](https://beaconcha.in/dashboard
 <ins>**Running multiple validators (voluntarily)**</ins>
 
 <details>
-Repeat <ins>**Step 2.**</ins> and **create more keys** in the same directory (USE THE SAME PASSWORD FOR ALL).
+    
+Repeat <ins> **Step 2.** </ins> and **create more keys** in the same directory (USE THE SAME PASSWORD FOR ALL).
 
 Copy the **Raw Transaction Data** for each validator and re-do the process on the [participation page](https://prylabs.net/participate) and deposit for each of them.
 
