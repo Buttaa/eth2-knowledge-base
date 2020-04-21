@@ -113,7 +113,7 @@ You will need to have "[Virtualization](https://docs.docker.com/docker-for-windo
 
 <ins>**Step 2.**</ins>
 
-Change Docker File sharing settings, Manually create a folder called **"prysm"** in that specific directory. Picture below for clarification.
+Change Docker File sharing settings - Manually create a folder called **"prysm"** in that specific directory. Picture below for clarification.
 
 <details>
   <summary>Picture to clarify</summary>
@@ -147,7 +147,7 @@ To get the latest testnet client version & starting the beaconchain follow up wi
 
 `docker run -it -v c:/prysm/:/data -p 4000:4000 -p 13000:13000 gcr.io/prysmaticlabs/prysm/beacon-chain:latest --datadir=/data`
 
-<sub> The blockchain data will be stored in the folder we manually created in Step 1. </sub>
+<sub> The blockchain data will be stored in the folder we manually created in the **Docker installation**. </sub>
 
 <details>
   <summary>Picture to clarify</summary>
@@ -187,17 +187,11 @@ Get 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the p
 
 <ins>**Step 3.**</ins>
 
-Starting beaconchain & validator. 
+Starting the validator. 
 
-Open **two** "Command Prompt" windows.
+Open **a new** command prompt window.
 
-**1. First Command prompt window: Start the beaconchain**
-
-`docker run -it -v c:/prysm/:/data -p 4000:4000 -p 13000:13000 gcr.io/prysmaticlabs/prysm/beacon-chain:latest --datadir=/data`
-
-<sub> The blockchain data will be stored in the folder we manually created in Step 1. </sub>
-
-**2. Second Command prompt window: Start your validator**
+**Start your validator**
 
 `docker run -it -v c:/prysm:/data --network="host" gcr.io/prysmaticlabs/prysm/validator:latest --beacon-rpc-provider=127.0.0.1:4000 --keystore-path=/data --datadir=/data --password=yourPassword`
 
