@@ -113,7 +113,7 @@ Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/1344
 
 <ins>**Step 0.**</ins>
 
-Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and type `docker -v`. If installed correctly it should give you the Docker Version.
+Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and type `docker -v`. If installed correctly it should give you the Docker Version. If not, please make sure to follow the steps in **Installing Docker on Windows Pro**.
 
 To get the latest testnet client version follow up with this:
 
