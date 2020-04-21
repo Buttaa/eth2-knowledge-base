@@ -146,7 +146,7 @@ Open a "Command Prompt" window and enter the following and press enter:
 
 `docker run -it -v c:/prysm/:/data -p 4000:4000 -p 13000:13000 gcr.io/prysmaticlabs/prysm/beacon-chain:latest --datadir=/data`
 
-The manually created folder should now have files including the beaconchain data.
+The manually created folder should now have files including the **beaconchain data**.
 
 <details>
   <summary>Picture to clarify</summary>
