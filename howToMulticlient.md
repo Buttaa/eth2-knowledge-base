@@ -83,7 +83,7 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 </details>
 
 1. **If this does not work**, you can also open a "Command Prompt" window and drag&drop the beaconchain file into it and press enter.
-2. **If you get the error `The process cannot access the file because it is being used by another process`, you will need **manually** delete the "beaconchain.db" file.
+2. **If you get the error** `The process cannot access the file because it is being used by another process`, you will need **manually** delete the "beaconchain.db" file.
 
 ##### Validator
 
@@ -177,7 +177,7 @@ Getting 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through t
   Spoiler text. ![Participation](https://user-images.githubusercontent.com/26490734/79573699-53b98f00-80bf-11ea-8c7c-4092778bab7d.png)
 </details>
 
-<ins>Step 7.</ins>
+<ins>Step 8.</ins>
 
 Starting beaconchain & validator. 
 
