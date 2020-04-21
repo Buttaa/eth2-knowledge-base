@@ -158,7 +158,7 @@ Change Docker File sharing settings, Manually create a folder called **"prysm"**
 
 <ins>**Step 0.**</ins>
 
-Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and type `docker -v`. If installed correctly it should give you the Docker Version. If not, please make sure to follow the steps in **Installing Docker on Windows Pro**.
+Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and type `docker -v`. If installed correctly it should give you the Docker Version. If not, please make sure to follow the steps in **Installing Docker on Windows Pro/Home**.
 
 To get the latest testnet client version follow up with this:
 
