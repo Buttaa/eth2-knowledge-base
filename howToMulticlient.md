@@ -46,8 +46,6 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 Open the [Prysmatic Participation Page](https://prylabs.net/participate) and the [client release page](https://github.com/prysmaticlabs/prysm/releases)
 
-<sub> **NOTE:** The description displayed on the **[Participation Page](https://prylabs.net/participate)** does not work for Windows. </sub>
-
 <ins>**Step 1.**</ins> 
 
 Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and enter the following:
