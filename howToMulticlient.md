@@ -101,7 +101,7 @@ Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/1344
 
 <ins>**Step 1.**</ins>
 
-[Downloading Docker](https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe), which is different for everyone depending on the motherboard manufacturer. 
+[Download Docker](https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe). Installing is different for everyone depending on the motherboard manufacturer. Entering BIOS may be required to change "virtualization" to "enabled".
 
 You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled, which you can in the Taskmanager. <sup> [Docker Info Page](https://docs.docker.com/docker-for-windows/install/) </sup>
 
