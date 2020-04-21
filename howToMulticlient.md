@@ -133,11 +133,15 @@ Change Docker File sharing settings, Manually create a folder called **"prysm"**
 
 Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and type `docker -v`. If installed correctly it should give you the Docker Version. If not, please make sure to follow the steps in **Installing Docker on Windows Pro/Home**.
 
-To get the latest testnet client version follow up with this:
+To get the latest testnet client version & starting the beaconchain follow up with this:
 
 1. `docker pull gcr.io/prysmaticlabs/prysm/beacon-chain:latest`
 
 2. `docker pull gcr.io/prysmaticlabs/prysm/validator:latest`
+
+3. Starting the beaconchain `docker run -it -v c:/prysm/:/data -p 4000:4000 -p 13000:13000 gcr.io/prysmaticlabs/prysm/beacon-chain:latest --datadir=/data`
+
+<sub> The blockchain data will be stored in the folder we manually created in Step 1. </sub>
 
 <details>
   <summary>Picture to clarify</summary>
