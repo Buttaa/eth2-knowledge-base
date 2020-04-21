@@ -129,7 +129,7 @@ Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/1344
 You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled, which you can on your Taskmanager. <sup> [Docker Info Page](https://docs.docker.com/docker-for-windows/install/) </sup>
 
 <details>
-  <summary>Picture to clarify</summary>
+  <summary>Virtualization enabled</summary>
   
 ![virtualization](https://user-images.githubusercontent.com/26490734/79853838-dba5de80-83c8-11ea-9fbf-d640c4bb1980.png)
 </details>
