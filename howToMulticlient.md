@@ -186,7 +186,7 @@ Open **two** "Command Prompt" windows.
 
 <ins>**Step 5.**</ins>
 
-Track your validator perfomance on [beaconcha.in](https://beaconcha.in/dashboard?validators=) with your public key (orange). You will need to wait for the "inclusionSlot" to be reached until your deposit is recognized by the system and to start staking. The Slot number can be checked [here](https://beaconcha.in/blocks)
+Track your validator perfomance on [beaconcha.in](https://beaconcha.in/dashboard?validators=) with your public key (orange). You will need to wait for the inclusionSlot(red) to be reached until your deposit is recognized by the system and to start staking. The Slot number can be checked [here](https://beaconcha.in/blocks)
 
 <details>
   <summary>Picture to clarify</summary>
