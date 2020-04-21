@@ -111,7 +111,7 @@ Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/1344
 
 ---
 
-<ins>**Step 2.**</ins>
+<ins>**Step 0.**</ins>
 
 Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and type `docker -v`. If installed correctly it should give you the Docker Version.
 
@@ -128,7 +128,7 @@ To get the latest testnet client version follow up with this:
 </details>
 
 
-<ins>**Step 3.**</ins>
+<ins>**Step 1.**</ins>
 
 Change Docker File sharing settings, Manually create a folder in that specific directory.
 
