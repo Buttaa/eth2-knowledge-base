@@ -221,7 +221,7 @@ After all deposits have been received by the system, you can just start a single
 
 ---
 
-#### Windows 10 w/Binary files (.exe) - <ins>Beaconchain</ins>
+#### Windows 10 w/Binary files (.exe)
 
 <details>
 
