@@ -156,7 +156,7 @@ The manually created folder should now have files including the **beaconchain da
 
 <ins>**Step 3.**</ins>
 
-Creating your ETH2 Keys:
+**Creating your ETH2 Keys:**
 
 Copy the following code: 
 
