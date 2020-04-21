@@ -18,7 +18,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
     - - Installing Docker on Windows **Pro** 
     - - Installing Docker on Windows **Home**
-    - Windows **Home** w/Docker
+    - Windows **Pro/Home** w/Docker
     - Prysm.sh script
     - Windows 10 w/Binary files (.exe)
     
