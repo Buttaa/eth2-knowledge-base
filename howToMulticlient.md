@@ -201,7 +201,7 @@ Repeat <ins>**Step 2.**</ins> and **create more keys** in the same directory (US
 
 Copy the **Raw Transaction Data** for each validator and re-do the process on the [participation page](https://prylabs.net/participate) and deposit for each of them.
 
-After all deposits ahve been received by the system, you can just start a single validator window and it will use all the created keys (=more validators)
+After all deposits have been received by the system, you can just start a single validator window and it will use all the created keys (=multiple validators)
 
 ---
 
