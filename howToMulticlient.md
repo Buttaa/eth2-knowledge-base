@@ -161,6 +161,7 @@ To get the latest testnet client version & starting the beaconchain follow up wi
 
 <details>
     <summary> Synced image </summary>  
+    
 ![synced](https://user-images.githubusercontent.com/26490734/79868679-8a094e00-83e0-11ea-81a0-d22ce4a741e9.png)
 </details>
 
@@ -206,7 +207,9 @@ Open **a new** command prompt window.
 
 <ins>**Step 4.**</ins>
 
-Track your validator perfomance on [beaconcha.in](https://beaconcha.in/dashboard?validators=) with your public key (orange). You will need to wait for the inclusionSlot(red) to be reached until your deposit is recognized by the system and to start staking. The Slot number can be checked [here](https://beaconcha.in/blocks)
+Track your validator perfomance on [beaconcha.in](https://beaconcha.in/dashboard?validators=) with your public key (orange). 
+
+You will need to wait for the inclusionSlot (red) to be reached until your deposit is recognized by the system and to start staking. The Slot number can be checked [here](https://beaconcha.in/blocks)
 
 <details>
   <summary>Picture to clarify</summary>
@@ -224,6 +227,7 @@ Repeat <ins> **Step 2.** </ins> and **create more keys** in the same directory (
 Copy the **Raw Transaction Data** for each validator and re-do the process on the [participation page](https://prylabs.net/participate) and deposit for each of them.
 
 After all deposits have been received by the system, you can just start a single validator window and it will use all the created keys (=multiple validators)
+
 </details>
 
 </details>
