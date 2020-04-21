@@ -40,9 +40,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 ---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
 
-#### Windows 10 w/Binary files (.exe)
-
-##### Beaconchain
+#### Windows 10 w/Binary files (.exe) - Beaconchain
 
 <ins>**Step 0.**</ins> 
 
@@ -85,7 +83,7 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 1. **If this does not work**, you can also open a "Command Prompt" window and drag&drop the beaconchain file into it and press enter.
 2. **If you get the error** `The process cannot access the file because it is being used by another process`, you will need **manually** delete the "beaconchain.db" file.
 
-##### Validator REQUIRES [A FIX BY PRYSM TEAM](https://github.com/prysmaticlabs/prysm/issues/5456#issue-601128068)
+#### Windows 10 w/Binary files (.exe) - Validator (REQUIRES [A FIX BY PRYSM TEAM](https://github.com/prysmaticlabs/prysm/issues/5456#issue-601128068))
 
 <ins>**Step 0.**</ins> 
 
