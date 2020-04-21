@@ -218,7 +218,7 @@ Make sure you have [Windows10 Home](https://support.microsoft.com/en-us/help/134
 
 [Downloading and installing Docker](https://download.docker.com/win/stable/40693/Docker%20Desktop%20Installer.exe), which is different for everyone depending on the motherboard manufacturer. 
 
-Install [Hyper-V](https://www.deskmodder.de/blog/wp-content/uploads/2018/08/hyper-v-installer-1.zip) by running the .bat file. [source](https://www.deskmodder.de/blog/2018/08/23/windows-10-home-hyper-v-aktivieren/)
+Install [Hyper-V](https://www.deskmodder.de/blog/wp-content/uploads/2018/08/hyper-v-installer-1.zip) by running the .bat file. [Download source](https://www.deskmodder.de/blog/2018/08/23/windows-10-home-hyper-v-aktivieren/)
 
 You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled, which you can check in your Taskmanager. 
 <details>
