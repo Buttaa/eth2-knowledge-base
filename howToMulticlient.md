@@ -208,13 +208,13 @@ Starting beaconchain & validator.
 
 Open **two** "Command Prompt" windows.
 
-1. **First Command prompt window: Start the beaconchain**
+**1. First Command prompt window: Start the beaconchain**
 
 `docker run -it -v c:/prysm/:/data -p 4000:4000 -p 13000:13000 gcr.io/prysmaticlabs/prysm/beacon-chain:latest --datadir=/data`
 
 <sub> The blockchain data will be stored in the folder we manually created in Step 1. </sub>
 
-2. **Second Command prompt window: Start your validator**
+**2. Second Command prompt window: Start your validator**
 
 `docker run -it -v c:/prysm:/data --network="host" gcr.io/prysmaticlabs/prysm/validator:latest --beacon-rpc-provider=127.0.0.1:4000 --keystore-path=/data --datadir=/data --password=yourPassword`
 
