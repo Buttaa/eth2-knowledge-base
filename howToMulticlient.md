@@ -205,4 +205,13 @@ After all deposits have been received by the system, you can just start a single
 
 ---
 
+#### Installing Docker on Windows **Home**
+
+<ins>**Step 0.**</ins>
+
+Make sure you have [Windows10 Home](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running)
+
+
+
+
 
