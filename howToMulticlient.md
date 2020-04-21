@@ -39,59 +39,6 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 ---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
 
-#### Windows 10 w/Binary files (.exe) - <ins>Beaconchain</ins>
-
-<ins>**Step 0.**</ins> 
-
-Open the [Prysmatic Participation Page](https://prylabs.net/participate) and the [client release page](https://github.com/prysmaticlabs/prysm/releases)
-
-<ins>**Step 1.**</ins> 
-
-Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and enter the following:
-
-`reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1`
-
-<sub> This will change the looks of the command prompt output later </sub>
-
-<ins>**Step 2.**</ins> 
-
-**Download** the newest versions of the Beaconchain **and** Validator. The version name might have changed because of an update, but the file name should similar (green mark on the picture below).
-
-<details>
-  <summary>Picture to clarify</summary>
-  
-![Prysmatic_DownloadPage](https://user-images.githubusercontent.com/26490734/79451678-33b69c80-7fe7-11ea-80c8-b92c75fbb937.png)
-</details>
-
-<ins>**Step 3.**</ins> 
-
-Find the files that have been downloaded. Usually located in the "Downloads" folder
-
-<ins>**Step 4.**</ins> 
-
-Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</ins>.exe - a **warnining** should appear. **Click** on "More Info" and then "Run anyway".
-
-<details>
-  <summary>Picture to clarify</summary>
-  
-![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png) 
-</details>
-
-1. **If this does not work**, you can also open a "Command Prompt" window and drag&drop the beaconchain file into it and press enter.
-2. **If you get the error** `The process cannot access the file because it is being used by another process`, you will need **manually** delete the "beaconchain.db" file.
-
-#### Windows 10 w/Binary files (.exe) - <ins>Validator</ins> (REQUIRES [A FIX BY PRYSM TEAM](https://github.com/prysmaticlabs/prysm/issues/5456#issue-601128068))
-
-<ins>**Step 0.**</ins> 
-
-<!-- Make sure to have the Validator File as desribed [here, <ins>Step 1 and 2.</ins>](https://github.com/Buttaa/eth2-knowledge-base/blob/howToMultiClient/howToMulticlient.md#windows10) -->
-
-<ins>**Step 1.**</ins> 
-
-<!-- Open the validator file - **validator**-v1.0.0-alpha.2-<ins>windows</ins>-amd64 -->
-
----
-
 #### Installing Docker on Windows **Home**
 
 <ins>**Step 0.**</ins>
@@ -239,5 +186,58 @@ Copy the **Raw Transaction Data** for each validator and re-do the process on th
 
 After all deposits have been received by the system, you can just start a single validator window and it will use all the created keys (=multiple validators)
 </details>
+
+---
+
+#### Windows 10 w/Binary files (.exe) - <ins>Beaconchain</ins>
+
+<ins>**Step 0.**</ins> 
+
+Open the [Prysmatic Participation Page](https://prylabs.net/participate) and the [client release page](https://github.com/prysmaticlabs/prysm/releases)
+
+<ins>**Step 1.**</ins> 
+
+Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and enter the following:
+
+`reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1`
+
+<sub> This will change the looks of the command prompt output later </sub>
+
+<ins>**Step 2.**</ins> 
+
+**Download** the newest versions of the Beaconchain **and** Validator. The version name might have changed because of an update, but the file name should similar (green mark on the picture below).
+
+<details>
+  <summary>Picture to clarify</summary>
+  
+![Prysmatic_DownloadPage](https://user-images.githubusercontent.com/26490734/79451678-33b69c80-7fe7-11ea-80c8-b92c75fbb937.png)
+</details>
+
+<ins>**Step 3.**</ins> 
+
+Find the files that have been downloaded. Usually located in the "Downloads" folder
+
+<ins>**Step 4.**</ins> 
+
+Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</ins>.exe - a **warnining** should appear. **Click** on "More Info" and then "Run anyway".
+
+<details>
+  <summary>Picture to clarify</summary>
+  
+![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png) 
+</details>
+
+1. **If this does not work**, you can also open a "Command Prompt" window and drag&drop the beaconchain file into it and press enter.
+2. **If you get the error** `The process cannot access the file because it is being used by another process`, you will need **manually** delete the "beaconchain.db" file.
+
+#### Windows 10 w/Binary files (.exe) - <ins>Validator</ins> (REQUIRES [A FIX BY PRYSM TEAM](https://github.com/prysmaticlabs/prysm/issues/5456#issue-601128068))
+
+<ins>**Step 0.**</ins> 
+
+<!-- Make sure to have the Validator File as desribed [here, <ins>Step 1 and 2.</ins>](https://github.com/Buttaa/eth2-knowledge-base/blob/howToMultiClient/howToMulticlient.md#windows10) -->
+
+<ins>**Step 1.**</ins> 
+
+<!-- Open the validator file - **validator**-v1.0.0-alpha.2-<ins>windows</ins>-amd64 -->
 
 ---
