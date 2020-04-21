@@ -16,11 +16,11 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 - Windows 10
 
-    - Windows 10 w/Binary files (.exe)
     - - Installing Docker on Windows **Pro** 
     - - Installing Docker on Windows **Home**
     - Windows **Home** w/Docker
     - Prysm.sh script
+    - Windows 10 w/Binary files (.exe)
     
 - macOS
 
