@@ -164,7 +164,7 @@ To get the latest testnet client version & starting the beaconchain follow up wi
 `INFO initial-sync: Synced up to slot XXXXX`
 
 <details>
-    <summary> Synced </summary>  
+    <summary>Picture to clarify </summary>  
     
 ![synced](https://user-images.githubusercontent.com/26490734/79868679-8a094e00-83e0-11ea-81a0-d22ce4a741e9.png)
 </details>
