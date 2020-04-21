@@ -212,7 +212,8 @@ After all deposits have been received by the system, you can just start a single
 
 <ins>**Step 0.**</ins>
 
-Make sure you have [Windows10 Home](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running)
+Make sure you have [Windows10 Home](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running).
+
 Since Docker is usually not available for Windows 10 Home some workaround are required as mentioned below.
 
 <ins>**Step 1.**</ins>
