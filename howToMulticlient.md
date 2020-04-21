@@ -133,6 +133,10 @@ Change Docker File sharing settings - Manually create a folder called **"prysm"*
 
 Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windows) window and type `docker -v`. If installed correctly it should give you the Docker Version. If not, please make sure to follow the steps in **Installing Docker on Windows Pro/Home**.
 
+If successful you can run the following code **(running this is not required and will just change the look of your command prompt output)**: 
+
+`reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1` 
+
 To get the latest testnet client version & starting the beaconchain follow up with this:
 
 1. Pull latest Beaconchain updates:
