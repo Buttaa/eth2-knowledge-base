@@ -16,8 +16,8 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 - Windows 10
 
-    - - Installing Docker on Windows **Pro** 
-    - - Installing Docker on Windows **Home**
+    - - Installing Docker on Windows **Home** 
+    - - Installing Docker on Windows **Pro**
     - Run with Windows **Pro/Home** w/Docker
     - Prysm.sh script
     - Windows 10 w/Binary files (.exe)
@@ -51,11 +51,20 @@ Since Docker is usually not available for Windows 10 Home some workaround are re
 
 <ins>**Step 1.**</ins>
 
-[Downloading and installing Docker](https://download.docker.com/win/stable/40693/Docker%20Desktop%20Installer.exe). <sup> [(Docker Info)](https://docs.docker.com/docker-for-windows/install/) </sup>
+[Download (do not install yet)](https://download.docker.com/win/stable/40693/Docker%20Desktop%20Installer.exe). <sup> [(Docker Info)](https://docs.docker.com/docker-for-windows/install/) </sup>
 
 Install [Hyper-V](https://www.deskmodder.de/blog/wp-content/uploads/2018/08/hyper-v-installer-1.zip) by running the .bat file. <sup> [Download source](https://www.deskmodder.de/blog/2018/08/23/windows-10-home-hyper-v-aktivieren/) </sup>
 
 You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled, which you can check in the Taskmanager. 
+
+Because Docker is not available for Windows10 Home, we need to act like a Windows10 Pro user:
+
+Run the following code in a command prompt window 
+
+`Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion`
+
+**change** `EditionID` to `Professional` and `ProductName` to `Windows 10 Pro`
+
 
 <details>
   <summary>Virtualization enabled</summary>
