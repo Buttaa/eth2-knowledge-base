@@ -17,7 +17,10 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 - Windows 10
 
     - Windows 10 w/Binary files (.exe)
-    - Windows **10 Pro** w/Docker
+    - - Installing Docker on Windows **Pro**
+    - - Installing Docker on Windows **Home**
+    - Windows **10 Pro** w/Docker 
+    - Windows **Home** w/Docker
     - Prysm.sh script
     
 - macOS
@@ -59,7 +62,11 @@ Open a [Command Prompt](https://www.wikihow.com/Open-the-Command-Prompt-in-Windo
 
 **Download** the newest versions of the Beaconchain **and** Validator. The version name might have changed because of an update, but the file name should similar (green mark on the picture below).
 
-![Prysmatic_DownloadPage](https://user-images.githubusercontent.com/26490734/79451678-33b69c80-7fe7-11ea-80c8-b92c75fbb937.png)
+<details>
+  <summary>Picture to clarify</summary>
+  
+  Spoiler text. ![Prysmatic_DownloadPage](https://user-images.githubusercontent.com/26490734/79451678-33b69c80-7fe7-11ea-80c8-b92c75fbb937.png)
+</details>
 
 <ins>Step 3.</ins> 
 
@@ -69,7 +76,11 @@ Find the files that have been downloaded. Usually located in the "Downloads" fol
 
 Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</ins>.exe - a **warnining** should appear. **Click** on "More Info" and then "Run anyway".
 
-![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png)
+<details>
+  <summary>Picture to clarify</summary>
+  
+  Spoiler text. ![Prysmatic_DownloadWarning](https://user-images.githubusercontent.com/26490734/79451935-a1fb5f00-7fe7-11ea-875d-f443afe24b09.png) 
+</details>
 
 1. **If this does not work**, you can also open a "Command Prompt" window and drag&drop the beaconchain file into it and press enter.
 2. **If you get the error `The process cannot access the file because it is being used by another process`, you will need **manually** delete the "beaconchain.db" file.
@@ -91,7 +102,7 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 
 <ins>Step 1.</ins>
 
-Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running), otherwise you won't be able to get Docker working. 
+Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running)
 
 <ins>Step 2.</ins>
 
@@ -107,13 +118,22 @@ To get the latest testnet client version follow up with this:
 
 2. `docker pull gcr.io/prysmaticlabs/prysm/validator:latest`
 
-![pullValidator](https://user-images.githubusercontent.com/26490734/79550092-2efdf100-8098-11ea-948f-84cc150a2251.png)
+<details>
+  <summary>Picture to clarify</summary>
+  
+  Spoiler text. ![pullValidator](https://user-images.githubusercontent.com/26490734/79550092-2efdf100-8098-11ea-948f-84cc150a2251.png)
+</details>
+
 
 <ins>Step 4.</ins>
 
 Change Docker File sharing settings, Manually create a folder in that specific directory.
 
-![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png)
+<details>
+  <summary>Picture to clarify</summary>
+  
+  Spoiler text. ![dockerWindows](https://user-images.githubusercontent.com/26490734/79551080-7c2e9280-8099-11ea-8886-0b739b7d12c1.png) 
+</details>
 
 <ins>Step 5.</ins>
 
@@ -141,13 +161,21 @@ Once you press enter the output should look the image below. If you didn't chang
 
 **Copy the Raw Transaction Data** (Yellow mark) and go to the [participation page](https://prylabs.net/participate).
 
-![validatorKeyGen](https://user-images.githubusercontent.com/26490734/79572401-2e2b8600-80bd-11ea-80b7-cedc798541be.png)
+<details>
+  <summary>Picture to clarify</summary>
+  
+  Spoiler text. ![validatorKeyGen](https://user-images.githubusercontent.com/26490734/79572401-2e2b8600-80bd-11ea-80b7-cedc798541be.png)
+</details>
 
 <ins>Step 7.</ins>
 
 Getting 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the participation page join the [Prysm Discord](https://discord.gg/wJW7Rjk)
 
-![Participation](https://user-images.githubusercontent.com/26490734/79573699-53b98f00-80bf-11ea-8c7c-4092778bab7d.png)
+<details>
+  <summary>Picture to clarify</summary>
+  
+  Spoiler text. ![Participation](https://user-images.githubusercontent.com/26490734/79573699-53b98f00-80bf-11ea-8c7c-4092778bab7d.png)
+</details>
 
 <ins>Step 7.</ins>
 
