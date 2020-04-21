@@ -73,7 +73,7 @@ Run the following code in a command prompt window
 
 **change** `EditionID` to `Professional` and `ProductName` to `Windows 10 Pro`
 
-**immediately** open the downloaded Docker File and install. 
+**immediately** open the downloaded Docker File and **install Docker**. 
 
 (In case of a **PC restart, shutdown or Docker shutdown**, the code above needs to be re-entered otherwise Docker will not start)
 
