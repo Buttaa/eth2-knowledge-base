@@ -176,7 +176,7 @@ Once you press enter the output should look the image below. If you didn't chang
 
 <ins>**Step 6.**</ins>
 
-Getting 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the participation page join the [Prysm Discord](https://discord.gg/wJW7Rjk)
+Get 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the participation page join the [Prysm Discord](https://discord.gg/wJW7Rjk) Follow the steps below to deposit your Goerli ETH.
 
 <details>
   <summary>Picture to clarify</summary>
