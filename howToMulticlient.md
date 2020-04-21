@@ -106,7 +106,7 @@ Since Docker is usually not available for Windows 10 Home some workaround are re
 
 Install [Hyper-V](https://www.deskmodder.de/blog/wp-content/uploads/2018/08/hyper-v-installer-1.zip) by running the .bat file. <sup> [Download source](https://www.deskmodder.de/blog/2018/08/23/windows-10-home-hyper-v-aktivieren/) </sup>
 
-You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled, which you can check in your Taskmanager. 
+You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled, which you can check in the Taskmanager. 
 
 <details>
   <summary>Virtualization enabled</summary>
@@ -126,7 +126,7 @@ Make sure you have [Windows10 Pro](https://support.microsoft.com/en-us/help/1344
 
 [Downloading Docker](https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe), which is different for everyone depending on the motherboard manufacturer. 
 
-You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled, which you can on your Taskmanager. <sup> [Docker Info Page](https://docs.docker.com/docker-for-windows/install/) </sup>
+You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled, which you can in the Taskmanager. <sup> [Docker Info Page](https://docs.docker.com/docker-for-windows/install/) </sup>
 
 <details>
   <summary>Virtualization enabled</summary>
