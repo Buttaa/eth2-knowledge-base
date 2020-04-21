@@ -57,15 +57,6 @@ Install [Hyper-V](https://www.deskmodder.de/blog/wp-content/uploads/2018/08/hype
 
 You will need to have "[Virtualization](https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled)" enabled, which you can check in the Taskmanager. 
 
-Because Docker is not available for Windows10 Home, we need to act like a Windows10 Pro user:
-
-Run the following code in a command prompt window 
-
-`Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion`
-
-**change** `EditionID` to `Professional` and `ProductName` to `Windows 10 Pro`
-
-
 <details>
   <summary>Virtualization enabled</summary>
   
@@ -74,7 +65,21 @@ Run the following code in a command prompt window
 
 <ins>**Step 2.**</ins>
 
-Change Docker File sharing settings, Manually create a folder called **"prysm"** in that specific directory. Picture below for clarification.
+Because Docker is not available for Windows10 Home, we need to act like a Windows10 Pro user:
+
+Run the following code in a command prompt window 
+
+`Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion`
+
+**change** `EditionID` to `Professional` and `ProductName` to `Windows 10 Pro`
+
+**immediately** open the downloaded Docker File and install. 
+
+(In case of a **PC restart, shutdown or Docker shutdown**, the code above needs to be re-entered otherwise Docker will not start)
+
+<ins>**Step 2.**</ins>
+
+Change Docker File sharing settings - Manually create a folder called **"prysm"** in that specific directory. Picture below for clarification.
 
 <details>
   <summary>Picture to clarify</summary>
