@@ -116,7 +116,7 @@ You will need to have "[Virtualization](https://docs.docker.com/docker-for-windo
 
 <ins>**Step 2.**</ins>
 
-Change Docker File sharing settings, Manually create a folder in that specific directory.
+Change Docker File sharing settings, Manually create a folder called **"prysm"** in that specific directory. Picture below for clarification.
 
 <details>
   <summary>Picture to clarify</summary>
@@ -146,7 +146,7 @@ You will need to have "[Virtualization](https://docs.docker.com/docker-for-windo
 
 <ins>**Step 2.**</ins>
 
-Change Docker File sharing settings, Manually create a folder in that specific directory.
+Change Docker File sharing settings, Manually create a folder called **"prysm"** in that specific directory. Picture below for clarification.
 
 <details>
   <summary>Picture to clarify</summary>
