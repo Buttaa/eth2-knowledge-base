@@ -176,7 +176,7 @@ Once you press enter the output should look the image below. If you didn't chang
 
 <ins>**Step 4.**</ins>
 
-Get 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the participation page join the [Prysm Discord](https://discord.gg/wJW7Rjk) Follow the steps below to deposit your Goerli ETH.
+Get 32 Goerli ETH (=Testnet ETH). If you cannot get any goerli ETH through the participation page, join the [Prysm Discord](https://discord.gg/wJW7Rjk) Follow the steps below to deposit your Goerli ETH.
 
 <details>
   <summary>Picture to clarify</summary>
@@ -202,7 +202,14 @@ Open **two** "Command Prompt" windows.
 
 <ins>**Step 6.**</ins>
 
-Track your validator perfomance on [beaconcha.in](https://beaconcha.in/dashboard?validators=)
+Track your validator perfomance on [beaconcha.in](https://beaconcha.in/dashboard?validators=) with your public key (orange). You will need to wait for the "inclusionSlot" to be reached until your deposit is recognized by the system and to start staking. The Slot number can be checked [here](https://beaconcha.in/blocks)
+
+<details>
+  <summary>Picture to clarify</summary>
+  
+  ![Validator&beaconcha.in](https://user-images.githubusercontent.com/26490734/79860463-fda45e80-83d2-11ea-8b71-05a112117f18.png)
+
+</details>
 
 ---
 
