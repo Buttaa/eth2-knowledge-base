@@ -175,7 +175,7 @@ To get the latest testnet client version & starting the beaconchain follow up wi
 
 Copy the following code: 
 
-`docker run -it -v c:/prysm/:/data gcr.io/prysmaticlabs/prysm/validator:latest --keystore-path=/data accounts create --password=yourPassword`
+`docker run -it -v c:/prysm:/data gcr.io/prysmaticlabs/prysm/validator:latest accounts create --keystore-path=/data --password=yourPassword`
 
 Once you press enter the output should look the image below. If you didn't change `--password=yourPassword` your validator keys will have this password by default. For simplicity, let's keep it this way for the testnet.
 
