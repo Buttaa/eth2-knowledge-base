@@ -27,13 +27,13 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
     - Docker (soon)
     - Prysm.sh script (soon)
     
-#### [Lighthouse](https://lighthouse.sigmaprime.io/)
+#### [Lighthouse](https://lighthouse.sigmaprime.io/) <ins> waiting for client release </ins>
 
 - Windows 10
 
-    - Windows 10 w/Binary files (.exe)
-    - Windows **10 Pro** w/Docker
-    - script
+    - Windows 10 w/Binary files (.exe) (soon)
+    - Windows **10 Pro** w/Docker (soon)
+    - script (soon)
   
 ---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
