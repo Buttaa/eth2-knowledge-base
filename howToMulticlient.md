@@ -18,9 +18,9 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
     - - [Installing Docker on Windows Home](#instalWindowsHome)
     - - [Installing Docker on Windows Pro](#instalWindowsPro)
-    - Run with Windows **Pro & Home** w/Docker
-    - Prysm.sh script
-    - Windows 10 w/Binary files (.exe)
+    - [Run with Windows **Pro & Home** w/Docker](#runWithDocker)
+    - Prysm.sh script <ins> (currently not working - requires fix by PrysmaticLabs) </ins>
+    - [Windows 10 w/Binary files (.exe)](#runWithBinary) <ins> (currently not working - requires fix by PrysmaticLabs) </ins>
     
 - macOS
 
@@ -124,7 +124,7 @@ Change Docker File sharing settings - Manually create a folder called **"prysm"*
 
 ---
 
-#### Run with Windows **Pro & Home** w/Docker
+#### <a name="runWithDocker"></a> Run with Windows **Pro & Home** w/Docker
 
 <details>
 
@@ -237,7 +237,7 @@ After all deposits have been received by the system, you can just start a single
 
 ---
 
-#### Windows 10 w/Binary files (.exe)
+#### <a name="runWithBinary"></a> Windows 10 w/Binary files (.exe) <ins> (currently not working - requires fix by PrysmaticLabs) </ins>
 
 <details>
 
