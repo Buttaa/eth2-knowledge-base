@@ -12,7 +12,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 ### Overview
 
-#### [Prysmatic Labs](https://prysmaticlabs.com/)
+#### [Prysmatic Labs](https://docs.prylabs.network/docs/getting-started/)
 
 - Windows 10
 
