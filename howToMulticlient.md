@@ -1,4 +1,4 @@
-## Step by Step: How to use the Ethereum 2.0 Multiclient
+# Step by Step: How to use the Ethereum 2.0 Multiclient
 
 This guide will be designed for **non technical** people. It will focus on **Windows10 and MacOs**. 
 
