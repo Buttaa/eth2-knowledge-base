@@ -20,7 +20,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
     - - [Installing Docker on Windows Pro](#instalWindowsPro)
     - [Run with Windows **Pro & Home** w/Docker](#runWithDocker)
     - [Windows 10 w/Binary files (.exe)](#runWithBinary) 
-    - Prysm.sh script 
+    - [Prysm.sh script]()#runWithScript 
     
 - macOS
 
@@ -293,3 +293,8 @@ Open the beaconchain file - **beacon-chain**-v1.0.0-alpha.2-<ins>windows-amd64</
 </details>
 
 ---
+
+#### <a name="runWithScript"></a> Run with Prysm.sh script <ins> (currently not working - requires fix by PrysmaticLabs) </ins>
+
+<details>
+</details>
