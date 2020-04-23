@@ -20,7 +20,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
     - - [Installing Docker on Windows Pro](#instalWindowsPro)
     - [Run with Windows **Pro & Home** w/Docker](#runWithDocker)
     - [Windows 10 w/Binary files (.exe)](#runWithBinary) 
-    - [Prysm.sh script]()#runWithScript 
+    - [Prysm.sh script](#runWithScript)
     
 - macOS
 
