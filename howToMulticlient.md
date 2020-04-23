@@ -16,17 +16,16 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 - Windows 10
 
-    - - Installing Docker on Windows **Home** 
-    - - Installing Docker on Windows **Pro**
+    - - [Installing Docker on Windows Home](#instalWindowsHome)
+    - - Installing Docker on Windows Pro
     - Run with Windows **Pro & Home** w/Docker
     - Prysm.sh script
     - Windows 10 w/Binary files (.exe)
     
 - macOS
 
-    - something
-    - Docker
-    - Prysm.sh script 
+    - Docker (soon)
+    - Prysm.sh script (soon)
     
 #### [Lighthouse](https://lighthouse.sigmaprime.io/)
 
@@ -39,7 +38,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 ---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
 
-#### Installing Docker on Windows **Home**
+#### <a name="instalWindowsHome"></a> Installing Docker on Windows **Home**
 
 <details>
 
