@@ -4,7 +4,7 @@ This guide will be designed for **non technical** people. It will focus on **Win
 
 It be an ongoing process and will be updated as we collect feedback and adapt to the most recent changes! 
 
-There will be **multiple ways** to join the ETH2.0 Testnet (different clients).
+There are **multiple ways** to join the ETH2.0 Testnet (different clients).
 
 **System requirements: Recommended: 8GB RAM, 100GB SSD , Minimum: 4GB RAM, 20GB SSD.**
 
