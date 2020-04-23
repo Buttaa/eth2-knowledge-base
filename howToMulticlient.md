@@ -19,8 +19,8 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
     - - [Installing Docker on Windows Home](#instalWindowsHome)
     - - [Installing Docker on Windows Pro](#instalWindowsPro)
     - [Run with Windows **Pro & Home** w/Docker](#runWithDocker)
-    - Prysm.sh script <ins> (currently not working - requires fix by PrysmaticLabs) </ins>
     - [Windows 10 w/Binary files (.exe)](#runWithBinary) <ins> (currently not working - requires fix by PrysmaticLabs) </ins>
+    - Prysm.sh script <ins> (currently not working - requires fix by PrysmaticLabs) </ins>
     
 - macOS
 
