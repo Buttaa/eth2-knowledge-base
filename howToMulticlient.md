@@ -17,7 +17,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 - Windows 10
 
     - - [Installing Docker on Windows Home](#instalWindowsHome)
-    - - Installing Docker on Windows Pro
+    - - [Installing Docker on Windows Pro](#instalWindowsPro)
     - Run with Windows **Pro & Home** w/Docker
     - Prysm.sh script
     - Windows 10 w/Binary files (.exe)
@@ -90,7 +90,7 @@ Change Docker File sharing settings - Manually create a folder called **"prysm"*
 
 ---
 
-#### Installing Docker on Windows **Pro**
+#### <a name="instalWindowsPro"></a> Installing Docker on Windows **Pro**
 
 <details>
 
