@@ -16,8 +16,8 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 
 - Windows 10
 
-    - - [Installing Docker on Windows Home](#instalWindowsHome)
-    - - [Installing Docker on Windows Pro](#instalWindowsPro)
+    - - [Installing Docker on Windows Home](#installWindowsHome)
+    - - [Installing Docker on Windows Pro](#installWindowsPro)
     - [Run with Windows **Pro & Home** w/Docker](#runWithDocker)
     - [Windows 10 w/Binary files (.exe)](#runWithBinary) 
     - [Prysm.sh script](#runWithScript)
@@ -38,7 +38,7 @@ Before we start off, reading the [glossary](https://kb.beaconcha.in/glossary) is
 ---
 ### [Prysmatic Labs - Topaz Testnet](https://prysmaticlabs.com/)
 
-#### <a name="instalWindowsHome"></a> Installing Docker on Windows **Home**
+#### <a name="installWindowsHome"></a> Installing Docker on Windows **Home**
 
 <details>
 
@@ -90,7 +90,7 @@ Change Docker File sharing settings - Manually create a folder called **"prysm"*
 
 ---
 
-#### <a name="instalWindowsPro"></a> Installing Docker on Windows **Pro**
+#### <a name="installWindowsPro"></a> Installing Docker on Windows **Pro**
 
 <details>
 
